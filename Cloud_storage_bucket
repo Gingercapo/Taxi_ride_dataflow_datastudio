@@ -1,0 +1,10 @@
+# Task 2. Create a Cloud Storage bucket
+In this task, I created a Cloud Storage bucket to provide working space for your Dataflow pipeline.
+
+Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. I can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
+
+In the Cloud console, in the Navigation menu (Navigation Menu), click Cloud Storage > Buckets.
+    Click Create Bucket.
+    For Name, copy and paste in your Project ID, and then click Continue.
+    For Location type, click Multi-region if it is not already selected.
+    Click Create.
