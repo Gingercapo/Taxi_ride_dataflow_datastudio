@@ -10,7 +10,6 @@
         timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,\
         passenger_count:integer -t taxirides.realtime
 
-
 Option 2 for task1 : The BigQuery Console UI
 
 1. If you see the Welcome dialog, click Done.
@@ -39,6 +38,4 @@ In Table, type realtime For the schema, click Edit as text and paste in the foll
           ride_status:string,
           passenger_count:integer
           Copied!
-In Partition and cluster settings, select timestamp.
-
-Click Create Table.
+In Partition and cluster settings, select timestamp, Click Create Table.
