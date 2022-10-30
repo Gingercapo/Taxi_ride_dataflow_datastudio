@@ -11,6 +11,6 @@ In this task, I created the taxirides dataset. I have two different options whic
 
 - In Pub/Sub, publisher applications and subscriber applications connect with one another through the use of a shared string called a topic. A publisher application creates and sends messages to a topic. Subscriber applications create a subscription to a topic to receive messages from it.
 
-- Google maintains a few public Pub/Sub streaming data topics for labs like this one. We'll be using an extract of the NYC Taxi & Limousine Commission’s open dataset. The Pub/Sub topic has already been created and populated in your project environment.
+- Google maintains a few public Pub/Sub streaming data topics for labs like this one. We'll be using an extract of the ``NYC Taxi & Limousine Commission’s open dataset``. The Pub/Sub topic has already been created and populated in your project environment.
 
 BigQuery is a serverless data warehouse. Tables in BigQuery are organized into datasets. In this project, messages published into Pub/Sub will be aggregated and stored in BigQuery.
