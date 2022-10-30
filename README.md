@@ -21,6 +21,6 @@ BigQuery is a serverless data warehouse. Tables in BigQuery are organized into d
 - Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. I can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
 
 ### Task 3. Set up a Dataflow Pipeline
-In this task, I set up a streaming data pipeline to read sensor data from Pub/Sub, compute the maximum temperature within a time window, and write this out to BigQuery.
+- In this task, I set up a streaming data pipeline to read sensor data from Pub/Sub, compute the maximum temperature within a time window, and write this out to BigQuery.
 
-Dataflow is a serverless way to carry out data analysis.
+- Dataflow is a serverless way to carry out data analysis.
