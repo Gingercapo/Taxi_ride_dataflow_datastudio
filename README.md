@@ -15,7 +15,7 @@ In this task, I created the taxirides dataset. I have two different options whic
 
 BigQuery is a serverless data warehouse. Tables in BigQuery are organized into datasets. In this project, messages published into Pub/Sub will be aggregated and stored in BigQuery.
 
-Task 2. Create a Cloud Storage bucket
-In this task, I created a Cloud Storage bucket to provide working space for your Dataflow pipeline.
+### Task 2. Create a Cloud Storage bucket
+- In this task, I created a Cloud Storage bucket to provide working space for your Dataflow pipeline.
 
-Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. I can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
+- Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. I can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
