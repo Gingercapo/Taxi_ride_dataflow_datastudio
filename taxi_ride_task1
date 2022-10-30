@@ -1,0 +1,44 @@
+1. In Cloud Shell (Cloud Shell icon), run the following command to create the taxirides dataset.
+
+        bq --location=us-west1 mk taxirides
+
+2. Run this command to create the taxirides.realtime table (empty schema that you will stream into later).
+
+        bq --location=us-west1 mk \
+        --time_partitioning_field timestamp \
+        --schema ride_id:string,point_idx:integer,latitude:float,longitude:float,\
+        timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,\
+        passenger_count:integer -t taxirides.realtime
+
+
+Option 2 for task1 : The BigQuery Console UI
+
+1. If you see the Welcome dialog, click Done.
+
+2. Click on View actions (View Actions) next to your Project ID, and then click Create dataset.
+
+3. In Dataset ID, type taxirides.
+
+4. In Data location, click us-west1 (Oregon), and then click Create Dataset.
+
+5. In the Explorer pane, click expand node (Expander) to reveal the new taxirides dataset.
+
+6. Click on View actions (View Actions) next to the taxirides dataset, and then click Open.
+
+7. Click Create Table.
+
+In Table, type realtime For the schema, click Edit as text and paste in the following:
+
+          ride_id:string,
+          point_idx:integer,
+          latitude:float,
+          longitude:float,
+          timestamp:timestamp,
+          meter_reading:float,
+          meter_increment:float,
+          ride_status:string,
+          passenger_count:integer
+          Copied!
+In Partition and cluster settings, select timestamp.
+
+Click Create Table.
