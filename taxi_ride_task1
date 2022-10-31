@@ -1,3 +1,5 @@
+Google Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud.
+
 1. In Cloud Shell (Cloud Shell icon), run the following command to create the taxirides dataset.
 
         bq --location=us-west1 mk taxirides
