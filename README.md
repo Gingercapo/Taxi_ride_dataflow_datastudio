@@ -3,6 +3,14 @@
 # Overview
 - In this Project, a company that owns a fleet of New York City taxi cabs and are looking to monitor how well their business is doing in real-time. i will build a streaming data pipeline to capture taxi revenue, passenger count, ride status, and much more, and then visualize the results in a management dashboard.
 
+you build a streaming data pipeline to monitor sensor data, and then visualize the dataset through a dashboard.
+
+I practiced: 
+- By Creating a Dataflow job from a pre-existing template and subscribing to a Pub/Sub topic. 
+- Streaming and monitoring a Dataflow pipeline into BigQuery and Analyzing results with SQL, and Visualizing key metrics in Data Studio. 
+- Please note that,I Used Strong SQL commands required. 
+- I will explored BigQuery in more details.
+
 ### Task 1. create the taxi_rides dataset
 - I Sourced for a pre-created Pub/Sub topic and create a BigQuery dataset
 In this task, I created the taxirides dataset. I have two different options which you can use to create this, using the ``Google Cloud Shell`` or ``the Google Cloud Console``.
